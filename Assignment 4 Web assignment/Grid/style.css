@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navbar a.active{
+    background-color: turquoise;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: turquoise;
+}
+
+.navbar-right a:hover{
+  background-color: turquoise;
+  color: black;
+}
+
+.navbar-right a{
+    float: right;
+    color: black;
+    padding: 10px;
+}
+
+/* .navbar-right {
+
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+  /* #index-grid-container{
+    grid-auto-rows: minmax(auto, auto);
+  } */
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  /* Login */
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;     /*Use column to increase the row.*/
+  }
+
+  .item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .item3 {
+    grid-row-start: 2;    /*Use row here, though i dnon't know why.*/
+    grid-row-end: 4;
+  }
+  
+  /* index */
+  /* .item1_index{
+  } */
+  
+  /* .item1_index{
+    grid-area: 1 / 2 / 4 / 4;
+    
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+  } */
+
+  /* .item2_index{
+    /* grid-area: 4 / 1 / 5 / 5;
+    grid-column-start: 4;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  } */

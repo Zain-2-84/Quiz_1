@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: turquoise;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    /* margin: 5px; */
+    color: black;
+}
+
+.navbar a.active{
+    background-color: aliceblue;
+}
+
+.navbar a:hover, .navbar-right a:hover{
+    background-color: burlywood;
+}
+
+.navbar-right a{
+    float: right;
+    padding: 10px;
+    /* margin: 5px; */
+}
+
+.training-section{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding-top: 20px;
+  }
+  
+  .training-items {
+    width: 23%;
+    flex-basis: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px burlywood;
+    text-align: center;
+  }
+  
+  .home-img {
+    width: 100%;
+    padding: 5px;
+    object-fit: cover;
+    max-width: 200px;
+  }
+  
+
+.btn{
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.footer-heading{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
